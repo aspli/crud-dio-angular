@@ -8,6 +8,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { UsersListComponent } from './pages/users/users-list/users-list.component';
 import { UsersFormComponent } from './pages/users/users-form/users-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DataBindingComponent } from './pages/data-binding/data-binding.component';
+import { ButtonComponent } from './components/button/button.component';
+import { LifeCycleComponent } from './components/life-cycle/life-cycle.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     HeaderComponent,
     UsersListComponent,
-    UsersFormComponent
+    UsersFormComponent,
+    DataBindingComponent,
+    ButtonComponent,
+    LifeCycleComponent
   ],
   imports: [
     BrowserModule,
