@@ -9,7 +9,7 @@ const routes: Routes = [
   { path:'', component: UsersListComponent },
   { path:'form', component: UsersFormComponent },
   { path:'form/:id', component: UsersFormComponent },
-  { path:'todo/', component: TodoListComponent },
+  { path:'todo', component: TodoListComponent },
   { path:'data-binding', component: DataBindingComponent }
 ];
 
